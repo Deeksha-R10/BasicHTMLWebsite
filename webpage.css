@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: white;
+  border: 2px solid black;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 2px solid black;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.intro {
+  text-align: center;
+  padding: 30px 10px;
+  border-bottom: 2px solid black;
+}
+
+.intro h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  color: gray;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  gap: 10px;
+  padding: 20px;
+  border-bottom: 2px solid black;
+}
+
+.projects, .experience, .education {
+  border: 2px solid black;
+  padding: 15px;
+}
+
+.projects ul, .education ul {
+  padding-left: 20px;
+}
+
+.projects li {
+  border: 1px solid black;
+  margin: 5px 0;
+  padding: 5px;
+  list-style: none;
+}
+
+.experience a {
+  color: blue;
+  text-decoration: underline;
+  font-size: 0.9em;
+}
+
+.reviews {
+  padding: 20px;
+}
+
+.reviews h2 {
+  margin-bottom: 20px;
+}
+
+.review-boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.review {
+  border: 2px solid black;
+  border-radius: 35px;
+  width: 250px;
+  padding: 15px;
+  margin: 10px;
+}
+
+.review span {
+  display: block;
+  margin-top: 10px;
+  color: gray;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
+}
